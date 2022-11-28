@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUSICANA</title>
+    <link href="library/nouislider.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <script src="https://kit.fontawesome.com/80b28af06a.js" crossorigin="anonymous"></script>
+    <nav>
+        <ul>
+         <li class="logo"><img src="logologo.jpeg" alt="My Music Player"><span>MUSICANA</span></li>
+         <li>Home</li>
+         <li>About</li>
+        </ul>
+    </nav>
+<div class="container">
+
+
+    <div class="songlist">
+        <h1>ALBUM</h1>
+
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img src="strongerkanye.jpg"class="cover" alt="1">
+                <span class="songName">Stronger</span>
+                <span class="songlistplay"><span class="timestamp">05:11 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="starboy.png"class="cover" alt="2">
+                <span class="songName">Starboy</span>
+                <span class="songlistplay"><span class="timestamp">03:50 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="hauntedlaura.jpg" class="cover" alt="3">
+                <span class="songName">Haunted</span>
+                <span class="songlistplay"><span class="timestamp">01:40 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="nightchanges.jpg"class="cover" alt="4">
+                <span class="songName">Night Changes</span>
+                <span class="songlistplay"><span class="timestamp">03:46 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            
+            <div class="songItem">
+                <img src="gul.jpg" class="cover" alt="6">
+                <span class="songName">Gul</span>
+                <span class="songlistplay"><span class="timestamp">03:36 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="mazaak.jpg" class="cover" alt="7">
+                <span class="songName">Mazaak</span>
+                <span class="songlistplay"><span class="timestamp">03:31 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="khogaye.jpg" class="cover" alt="8">
+                <span class="songName">Kho Gaye Hum Kahan</span>
+                <span class="songlistplay"><span class="timestamp">03:32 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            <div class="songItem">
+                <img src="baaraat.jpg" class="cover" alt="9">
+                <span class="songName">Baaraat</span>
+                <span class="songlistplay"><span class="timestamp">03:42 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="songbanner"></div>
+</div>
+
+<div class="bottom">
+    <div style="
+        display:block;
+    ">
+    <div id="slider"></div>
+    <div id="slider-fit"></div>
+    <div class="slider-styled leftHandle" id="slider-square"></div>
+    <div class="slider-styled rightHandle" id="slider-square"></div>
+    </div>
+<div class="icons">
+    <!--fontawesome-->
+    <!-- <i class="fa-sharp fa-solid fa-arrow-down-to-line"></i> -->
+    <i class="fa-solid fa-7x fa-arrow-down-to-line"></i>
+    <i class="fa-solid fa-3x fa-step-backward"></i>
+    <i id ='masterPlay'class="fa-solid fa-3x fa-play"></i>
+    <i class="fa-solid fa-3x fa-step-forward"></i>
+    <i id ='trimmer'class="fa-solid fa-3x fa-scissors"></i>
+</div>
+<div class="songInfo">
+    <img src="equalizer.gif" width="42px" alt="" id="gif"> <span id="masterSongName">PLAYING NOW</span>
+</div>
+</div>
+<script src="library/nouislider.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

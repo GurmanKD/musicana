@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@700&family=Roboto:ital,wght@1,700&display=s     wap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap');
+
+
+body{
+    background-color: rgb(43,45,64);
+
+
+
+}
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height:70px;
+     background-color: black; 
+    color: white;
+}
+
+nav ul li{
+    padding: 0 15px;
+}
+
+.logo img{
+    width:65px;
+    padding: 0 8px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+.container{
+    min-height: 60vh;
+    background-color: black ;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    margin:25px auto;
+    width: 70%;
+    border-radius: 13px;
+    padding: 35px;
+    background-image: url('bg3.jpg');
+    background-size: cover;
+    background-repeat: no no-repeat;
+
+}
+
+.bottom{
+    position: sticky;
+    height:100px;
+background-color: black;
+background: black;
+    color:white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.icons i{
+    margin: 5px 10px ;
+}
+.fa-solid{
+    cursor: pointer  !important;
+
+}
+
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+
+}
+
+.songItem{
+    height:50px;
+    display:flex;
+    background-color: white;
+    color: black;
+display: flex;
+font-weight: bold;
+
+font-size: 0.75rem;
+padding: 5px;
+margin: 5px 0;
+justify-content: space-between;
+
+
+}
+.cover {
+    border-radius:50%;
+
+    
+}
+
+.songName{
+margin-top: auto;
+margin-bottom: auto;
+margin-left: 5px;
+font-family: 'Roboto', sans-serif !important;
+}
+
+.songName > span{
+    font-weight: 700;
+}
+
+.songlistplay{
+    /* margin-left: 100px;
+margin-right: -70px;     */
+}
+.songInfo{
+
+    height:50px;
+
+}
